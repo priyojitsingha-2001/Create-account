@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="validate.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>SIGN-UP😊</h1>
+        <p style="font-size: 20px;">Create your account</p>
+    </div>
+    <div class="form">
+        <form action="#" name="form" onsubmit="validateform()">
+            <div class="First name">
+                First Name: <input type="text" name="fname" id="name"><b><span class="ferror"></span></b>
+            </div>
+            <div class="last name">
+                Last Name: <input type="text" name="lname" id="lname">
+            </div>
+            <div class="gender"   >
+                Gender: <select name="gender" id="">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="country">
+                country: <select name="country" id="">
+                    <option value="Usa">Usa</option>
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="South Korea">South korea</option>
+                </select>
+            </div>
+            <div class="province">
+                province: <input type="text" name="province">
+            </div>
+            <div class="email"   >
+                email: <input type="email" name="femail" required>
+            </div>
+            <div class="phone">
+                phone: <input type="number" name="phone">
+            </div>
+            <div class="password">
+                password: <input type="password" name="password">
+            </div>
+            <div class="cpassword">
+                confirm password: <input type="password" name="cpassword">
+            </div>
+            <div>
+                <input type="submit" class="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
